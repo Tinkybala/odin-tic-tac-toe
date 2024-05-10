@@ -2,4 +2,4 @@
 
 New stuff implemented: IIFE gameboard, factory function, private variables
 
-Things to improve: idk
+Things to improve: could add a play against pc mode
