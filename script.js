@@ -138,6 +138,7 @@ const clicked = function(i, cell){
         p1.textContent = `${player1.getName()} wins!`;
         container.appendChild(p1);
         lockCells();
+        return;
 
     }
     else if(check(GameBoard.getBoard()) === -1){
@@ -147,6 +148,7 @@ const clicked = function(i, cell){
         p2.textContent = `${player2.getName()} wins!`;
         container.appendChild(p2);
         lockCells();
+        return;
     }
     step++;
     //endgame if 9 steps taken
