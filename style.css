@@ -45,3 +45,7 @@
 .board button:disabled{
     color: black;
 }
+
+.restart{
+    margin-top: 30px;
+}
